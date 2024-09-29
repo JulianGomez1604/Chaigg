@@ -58,16 +58,8 @@ a {
     align-items: center;
 }
 
-#textInput {
-    flex-grow: 3;
-}
-
-.classLinks {
-    flex-grow: 1;
-}
-
 textarea {
-    width: 70%;
+    width: 50vw;
     height: 20vh;
 }
 
@@ -82,4 +74,9 @@ textarea {
     justify-content: space-around;
     height: 60px;
     align-items: center;
+}
+
+.textResponse {
+    flex-grow: 1;
+    flex-shrink: 0;
 }
